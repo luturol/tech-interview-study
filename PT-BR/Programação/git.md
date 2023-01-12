@@ -26,7 +26,7 @@ Publica todas modificações que foram marcadas para serem publicadas.
 git add
 ```
 
-Adiciona as modificações para serem publicadas com o comando ```commit```
+Adiciona as modificações para serem publicadas com o comando ```git commit```
 
 ### Git push
 
@@ -59,10 +59,53 @@ Baixa todo conteúdo que está no repositório remoto para o seu repositório lo
 
 Detalhe: ao executar o git fetch, você também "baixa" novos branchs para o seu repositório local.
 
-## Branching
+
+### Git branch WIP
+
+```
+git branch
+```
+
+Você visualiza todos os branchs do teu repositório local e pode utilziar para criar novos branchs
+
+```
+git branch novo-branch
+```
+
+ao criar um novo branch, você cria apontando do branch atual e não faz o switch para o novo branch.
+
+### Git checkout WIP
+
+```
+git checkout
+```
+
+
+## Branching WIP
+
+É a forma de organizar o versionamento utilizando ramificações. Uma boa prática é criar um branch novo para cada feature que você trabalha e depois que terminar abrir um Pull Request para um outro branch.
+
+```
+git branch
+```
+
+Lista todos os branchs do teu repositório (mostra apenas os que você tem local)
+
+```
+git checkout -b novo-branch
+```
+
+Cria um novo branch
+
+```
+git checkout antigo-branch
+```
+
+Volta para o branch antigo
 
 ## GitFlow
 
+## Trunk base
 
 ## Referencias
 
@@ -71,3 +114,5 @@ Detalhe: ao executar o git fetch, você também "baixa" novos branchs para o seu
 - [git pull](https://git-scm.com/docs/git-pull/pt_BR)
 - [git fetch](https://git-scm.com/docs/git-fetch)
 - [git fetch, Atlassian](https://www.atlassian.com/git/tutorials/syncing/git-fetch#:~:text=The%20git%20fetch%20command%20downloads,else%20has%20been%20working%20on.)
+- [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- [git branch](https://git-scm.com/docs/git-branch)
