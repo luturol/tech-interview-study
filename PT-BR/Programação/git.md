@@ -55,7 +55,9 @@ git merge
 git fetch
 ```
 
+Baixa todo conteúdo que está no repositório remoto para o seu repositório local, mas não atualiza nada. Para aplicar você deve fazer um ```git merge```
 
+Detalhe: ao executar o git fetch, você também "baixa" novos branchs para o seu repositório local.
 
 ## Branching
 
