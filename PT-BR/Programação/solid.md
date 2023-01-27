@@ -37,6 +37,11 @@ Você deve poder substituir uma classe que deriva de uma abstração/interface/h
 
 Você deve criar interfaces específicas e únicas para resolver um problema. Não é uma boa prática criar uma classe que resolva mais de um problema, isso torna o código difícil de entender e complica a manutenção.
 
+É possível implementar mais de uma interface numa classe.
+
+## Dependency Inversion Principle
+
+"Depend on abstractions, not on concretions."
 
 ## Referencias
 
