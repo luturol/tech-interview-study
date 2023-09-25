@@ -2,6 +2,8 @@
 
 Programação orientada a objetos é um paradigma da programação baseada no conceito de objetos.
 
+"A programação orientada a objetos impõe disciplina sobre a transferência indireta do controle" - Arquitetura Limpa
+
 ## O que é?
 
 É a ideia de classificar o código em uma abstração envolvendo objetos para deixar mais concreto e organizado o código. Você organiza o mundo real como uma coleção de objetos.
