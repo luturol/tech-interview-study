@@ -60,7 +60,7 @@ Baixa todo conteúdo que está no repositório remoto para o seu repositório lo
 Detalhe: ao executar o git fetch, você também "baixa" novos branchs para o seu repositório local.
 
 
-### Git branch WIP
+### git branch WIP
 
 ```
 git branch
@@ -74,7 +74,7 @@ git branch novo-branch
 
 ao criar um novo branch, você cria apontando do branch atual e não faz o switch para o novo branch.
 
-### Git checkout WIP
+### git checkout WIP
 
 ```
 git checkout
@@ -102,6 +102,34 @@ git checkout antigo-branch
 ```
 
 Volta para o branch antigo
+
+## git reset
+
+Faz tu apagar o último commit realizado e dependendo do comando deixa ele ou na stagin area, ou só marcados como modificados ou apaga tudo. Há outros parâmetros interessantes no git reset, mas iremos abordar somente esses três: --soft, --mixed e --hard
+
+### --soft
+
+Ele volta o último commit e deixa os arquivos commitados em stage, prontos para serem commitados.
+
+```bash
+git reset --soft HEAD~1
+```
+
+### --mixed
+
+Ele volta o último commit, mas deixa todos os arquivos fora da staging area
+
+```bash
+git reset --mixed HEAD~1
+```
+
+### --hard
+
+Ele **apaga todo o último commit**. Cuidado ao usar esse comando.
+
+```
+git reset --hard HEAD~1
+```
 
 ## GitFlow
 
