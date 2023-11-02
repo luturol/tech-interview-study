@@ -4,5 +4,7 @@
 ## Sumário
 
 1. [Entity Framework](/PT-BR/Csharp/entityframework.md)
-2. [Dependency Injection](/PT-BR/Csharp/dependencyinjection.md)
-3. Classes
+1. [Dependency Injection](/PT-BR/Csharp/dependencyinjection.md)
+1. Classes
+1. [Record Type](/PT-BR/Csharp/record-type.md)
+
