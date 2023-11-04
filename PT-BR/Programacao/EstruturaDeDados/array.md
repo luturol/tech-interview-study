@@ -2,6 +2,32 @@
 
 Array é uma estrutura de dados de uma coleção pré determinada de dados com um tamanho específico. O aceso nele é através do index de cada posição. Benefícios: Tamanho fixo, acesso por index e todos os dados são do mesmo tipo.
 
+
+## Como implementar
+
+Normalmente Arrays são criados já informando o tipo e o seu tamanho final.
+
+```csharp
+int[] array = new int[5];
+```
+
+Para inicializar um array já com valores:
+
+```csharp
+int[] array = new int[5] { 1, 2, 3, 4, 5 };
+```
+
+
+Para acessar um array:
+
+```csharp
+int[] array = new int[5] { 1, 2, 3, 4, 5 };
+
+var valor = array[0];
+```
+
+Normalmente os arrays começam na posição 0 e vão até ```Lenght - 1```. Prestar muita atenção nisso ao realizar uma operação com Array.
+
 # Perguntas e Respostas (FAQ)
 
 _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e outras de sites que estão nas referências_
@@ -22,3 +48,7 @@ _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e out
 1. O que é um array circular?
 
     É um array em que o próximo elemento depois do último é o primeiro elemento, ou seja, um ciclo. É útil quando é necessário ficar percorrendo a lista de forma ciclica.
+
+# Referências
+
+- [C# - Conceitos - Apresentando Arrays](https://macoratti.net/10/05/c_arrays.htm)
