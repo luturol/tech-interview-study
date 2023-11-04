@@ -92,3 +92,7 @@ Console.WriteLine(kobold == orc); // False
 Monster kobold1 = new Kobold("Clave", 6, "Warrior");
 Console.WriteLine(kobold == kobold1); //True
 ```
+
+## Referências
+
+- [What's new in C# 9.0](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9)

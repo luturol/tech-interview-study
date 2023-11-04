@@ -179,7 +179,16 @@ Além disso, ele é utilizado para atualizar o teu branch com o outro branch, fa
 git rebase -i HEAD~X
 ```
 
-No lugar do X, colocar o número de commits que deseja reorganizar. O comando ```-i``` permite que algumas alterações sejam feitas no histórico de commits da branch de forma interativa, sendo algumas delas: ```-r```, ```-s```, ```-e```
+No lugar do X, colocar o número de commits que deseja reorganizar. O comando ```-i``` permite que algumas alterações sejam feitas no histórico de commits da branch de forma interativa, sendo algumas delas: ```-r``` para alterar a mensagem do commit, ```-s``` para fazer um squash dos commits (juntar todos os commits num só, tu marca todos que tu quer que sejam combinados e ele junta todos com suas mensagens de commit no primeiro commit), ```-e``` para editar o que foi commitado.
+
+Durante o rebase talvez seja necessário resolver conflitos.
+
+```
+git rebase --continue
+git rebase --abort
+```
+
+Para dar continuidade ou abortar o processo.
 
 Muito cuidado ao utilizar o ```git rebase``` porquê ele altera o histórico de commits, então no final é necessário usar o ```push -f``` para enviar as modificações para o remoto.
 
