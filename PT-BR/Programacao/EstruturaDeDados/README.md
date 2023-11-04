@@ -22,12 +22,17 @@ Há vários tipos de estrutura de dados. Esses são alguns deles:
 
 ## Perguntas e Respostas (FAQ)
 
+_Algumas perguntas foram tiradas do ChatGPT_
+
 1. O que é Estrutura de Dados?
 1. O que é um array multidimensional?
 1. Onde pode ser usado estrutura de dados?
-1. O que é LinkedList?
-1. Quais são as vantagens de LinkedList sobre Array? Em quais cenários utilizamos Array e quando utilizamos LinkedList?
-1. O que é uma LinkedList duplamente encadeada?
+1. **O que é uma lista encadeada (Linked List)?**
+
+    É uma estrutura de dados de uma coleção de nodos e que cada nodo aponta para o próximo ou aponta para o anterior também. Linked List não possui memória alocada préviamente a ela, ela utiliza ponteiros para apontar para o próximo elemento, ou seja, de início o custo de memória é baixo e conforme cresce só vai adicionando o peso do novo elemento. As que apontam para o anterior e para o próximo são duplamente encadeadas. Isso facilita inserção e remoção de um nodo em qualquer posição da lista.
+
+1. Quais são as vantagens de Linked List sobre Array? Em quais cenários utilizamos Array e quando utilizamos Linked List?
+1. O que é uma Linked List duplamente encadeada?
 1. O que são Estruturas de Dados dinâmicos?
 1. O que é uma pilha?
 1. O que é uma fila?
@@ -47,3 +52,5 @@ Há vários tipos de estrutura de dados. Esses são alguns deles:
 
 - [Data Structure Interview Questions and Answers [Top 46]](https://www.simplilearn.com/data-structure-interview-questions-and-answers-article)
 - [Heap](https://pt.wikipedia.org/wiki/Heap)
+- [Linked List](https://en.wikipedia.org/wiki/Linked_list)
+- [Linked List Data Structure](https://www.geeksforgeeks.org/data-structures/linked-list/)
