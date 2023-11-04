@@ -22,7 +22,7 @@ Há vários tipos de estrutura de dados. Esses são alguns deles:
 
 ## Perguntas e Respostas (FAQ)
 
-_Algumas perguntas foram tiradas do ChatGPT_
+_Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e outras de sites que estão nas referências_
 
 1. O que é Estrutura de Dados?
 1. O que é um array multidimensional?
