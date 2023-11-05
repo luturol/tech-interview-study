@@ -24,8 +24,19 @@ Há vários tipos de estrutura de dados. Esses são alguns deles:
 
 _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e outras de sites que estão nas referências_
 
-1. O que é Estrutura de Dados?
-1. O que é um array multidimensional?
+1. **O que é Estrutura de Dados?**
+
+    São formas de organizar os dados para facilitar o acesso e a utilização dos mesmo. Há várias formas de organizar os dados: arrays, listas, grafos, árvores, pilha, fila e entre outros.
+
+1. **O que é um array multidimensional?**
+
+    É um array de arrays, ou seja, um array que possui no dado mais um array de outro dado. Exemplo: ```int[,] array2D = new int[2, 4];``` um array de duas dimensões em que a primeira dimensão possui tamanho 2 e a segunda tamanho 4, ou de forma mais simples, duas linhas com 4 colunas.
+
+    | Valor 1 | Valor 2 | Valor 3 | Valor 4
+    | -------- | ------- | -------- | ------- |
+    | 1 | 2 | 3 | 4 |
+    | 1 | 2 | 3 | 4 |
+
 1. Onde pode ser usado estrutura de dados?
 1. **O que é uma lista encadeada (Linked List)?**
 
