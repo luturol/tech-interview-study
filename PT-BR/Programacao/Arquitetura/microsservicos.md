@@ -5,3 +5,7 @@
 # Perguntas e Respostas (FAQ)
 
 _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e outras de sites que estão nas referências_
+
+# Referências
+
+1. [Top 25 Microservices Interview Questions and Answers (2023)](https://www.guru99.com/microservices-interview-questions.html)
