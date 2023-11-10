@@ -17,4 +17,4 @@ Tópicos relacionados a programação em geral.
     1. [Arquitetura em Camadas](/PT-BR/Programacao/Arquitetura/arquiteturaemcamadas.md)
     1. [CQRS](/PT-BR/Programacao/Arquitetura/cqrs.md)
     1. [Microsserviços](/PT-BR/Programacao/Arquitetura/microsservicos.md)
-1. [Algoritmos](/PT-BR/Programacao/algoritmos.md)
+1. [Algoritmos](/PT-BR/Programacao/Algoritmos/README.md)

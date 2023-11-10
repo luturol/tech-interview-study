@@ -60,6 +60,6 @@ _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e out
 
     É um algoritmo de ordenação que utiliza a recursão para fazer subdivisões dos elementos e ir ordenando eles até que todos estejam ordenados. No final as subdivisões ordenadas são mescladas para formar a lista ordenada. A complexidade do Merge Sort é ```O(n log n)```. É um algoritmo muito eficiente para ordenar estruturas de dados.
 
-1. Explique o "Insertion Sort"?
+1. **Explique o "Insertion Sort"?**
 
     Insertion Sort é um algoritmo de ordenação utilizado para ordenar um elemento no momento em que será inserido na lista. Ele funcionar ordenando uma pequena sequência de dados por vez. Ele divide a lista em dois, elementos ordenados e elementos não ordenados, e compara os não ordenados com os ordenados para poder inserir na posição adequada. O processo é repetido até que todos os dados estejam ordenados. No pior dos casos a complexidade é O(n²) e na melhor é O(n). Ele é eficiente para pequenas listas quase ordenadas.
