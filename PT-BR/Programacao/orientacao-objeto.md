@@ -40,6 +40,10 @@ _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e out
 
 1. Diferença entre Polimorfismo e Herança
 
+    Herança trabalha com hierarquia de classes, onde uma classe pode herdar de outra e ter suas modificações e assim por diante se tornando cada vez mais especializada naquilo. Trabalha usando classes concretas ou abstratas que podem ser herdadas multiplas vezes. Herança permite a reutilização de código, promovendo a extensibilidade e manutenção do código.
+
+    Polimorfismo usa interfaces e classes abstratas para criar classes concretas com implementações únicas sobre as derivadas, tratando objetos de forma uniforme e de mesmo nível. O polimorfismo permite escrever códigos mais genéricos e flexíveis, sem a necessidade de saber exatamente o tipo específico do objeto em tempo de compilação. Além disso, é possível utilizar as práticas de overriding e overloading para implementações específicas dos métodos.
+
 ## Referências
 
 - [Orientação a objetos, Wikipédia](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
