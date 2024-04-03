@@ -34,6 +34,12 @@ Programação orientada a objetos é um paradigma da programação baseada no co
     
     Exemplo: Um Carro e uma Moto podem herdar de uma classe chamada Automóvel. Os dois aceleram ou dois fazem a mesma coisa (locomover alguém de um lugar para outro), porém, de formas diferentes. Portanto, desde que um novo veículo seja implementado respeitando as regras da classe Automóvel, ele poderá ser usado como um automóvel. Além do mais, isso facilita o tratamento genérico de objetos utilizando interfaces que independem das suas implementações. A arquitetura de plug-in se encaixa perfeitamente nesse cenário. 
 
+# Perguntas e Respostas (FAQ)
+
+_Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e outras de sites que estão nas referências_
+
+1. Diferença entre Polimorfismo e Herança
+
 ## Referências
 
 - [Orientação a objetos, Wikipédia](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
