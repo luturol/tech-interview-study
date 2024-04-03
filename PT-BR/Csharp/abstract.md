@@ -13,7 +13,7 @@ public abstract Monster
     public abstract void Attack();
 }
 
-public class OrcShaman
+public class OrcShaman : Monster
 {
     private int health;
     public override int Health {

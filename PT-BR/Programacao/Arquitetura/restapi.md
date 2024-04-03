@@ -24,6 +24,25 @@
 
     As comunicações com o servidor não possuem estado, então cada requisição possui somente a necessária informação para a solicitação e retorna somente o necessário. Isso simplifica o desenvolvimento e a manutenção dos servidores e clientes.
 
+## HTTP Status
+
+1xx - Informational: indica que a solicitação está sendo processada.
+2xx - Success: indica que a solicitação foi recebida, compreendida e aceita com sucesso
+3xx - Redirection: indica que o cliente precisa executar mais algumas operações para completar a solicitação
+4xx - Client Error: indica que ocorreu um erro por parte do cliente
+5xx - Server Error: indica que aconteceu um erro por parte do servidor.
+
+## Convenções de nomenclatura
+
+1. Use sempre substantivos em vez de verbos para indicar um recurso
+
+    Exemplo: ```/users``` no lugar de ```/getUsers```
+
+1. Usar plural para coleção de recursos
+
+    Exemplo: ```/users``` no lugar de ```/user```
+
+
 # Perguntas e Respostas (FAQ)
 
 _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e outras de sites que estão nas referências_
@@ -38,6 +57,10 @@ _Algumas perguntas e respostas foram tiradas do ChatGPT, outras inventadas e out
 1. **O que é HATEOAS?**
 
     Hypermedia As The Engine Of Application State é um princípio que sugere que a navegação de um dado em um serviço deve ser guiada por links dinâmicos nos dados das aplicações.
+
+1. **Qual a diferença entre HTTP Status 404 e 204?**
+
+    O 404 significa que o recurso não foi encontrado, ou seja, que a URL que foi informada não existe. Já o 204, informa que a requisição foi bem sucedida e que o servidor não encontrou nenhum conteúdo para retornar.
 
 # Referências
 
